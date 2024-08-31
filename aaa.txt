@@ -1,13 +1,1 @@
 aaaaaa
-git stash
-stashというコマンドを作って、git stash apply stash名 を試した結果、
-warning: refname 'stash' is ambiguous.
-warning: refname 'stash' is ambiguous.
-warning: refname 'stash' is ambiguous.
-warning: refname 'stash' is ambiguous.
-warning: refname 'stash' is ambiguous.
-warning: refname 'stash' is ambiguous.
-とエラーが出た。
-警告: 参照名「stash」があいまいです。と翻訳できる。
-stashというコマンドを作ってしまったことで、stashが何を指すのかが分からなくなった
-ことが原因かもしれない。stashブランチを削除してみたら成功した。
